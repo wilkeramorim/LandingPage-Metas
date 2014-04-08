@@ -34,7 +34,7 @@ $(function(){
 
 	menu.hide();
 
-	$(".menu-btn i").click(function(){
+	$(".menu-btn a").click(function(){
 		menu.slideToggle(300);
 		$('#wrapper').toggleClass('pushed');
 	});
@@ -180,7 +180,7 @@ $(function(){
 /*--------------------------------------------------------*/
 $(function(){
 
-	var contactForm = $(".contact-form"),
+	var contactForm = $(".contact"),
 		triggerForm = $(".contact-bar .btn");
 	
 	contactForm.hide();

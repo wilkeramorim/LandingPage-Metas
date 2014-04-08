@@ -7,9 +7,9 @@
 <!--<![endif]-->
 <head>
 <meta charset="utf-8">
-<title>Valorae | Gestão de Metas</title>
+<title>Solução para KPIs, PDCA e Planos de Ação | Valorae</title>
 <meta name="description" content="Responsive HTML5 Flat Ebook Selling Landing Page">
-<meta name="author" content="eriktailor">
+<meta name="author" content="wilkeramorim">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <link rel="stylesheet" href="css/reset.css">
 <link rel="stylesheet" href="css/skeleton.css">
@@ -25,13 +25,13 @@
 <link rel="apple-touch-icon" sizes="72x72" href="img/apple-touch-icon-72x72.png">
 <link rel="apple-touch-icon" sizes="114x114" href="img/apple-touch-icon-114x114.png">
 <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,800|Roboto+Slab:400,700' rel='stylesheet' type='text/css'>
-<link rel="stylesheet" href="css/colors/lime.css">
+<link rel="stylesheet" href="css/colors/metas.css">
 </head>
 <body>
 <!-- Primary Page Layout
 ================================================== -->
 <div id="wrapper">
-  <nav id="menu" class="menu">
+  <nav id="menu" class="menu hidden">
     <div class="container">
       <div class="sixteen columns">
         <ul>
@@ -47,147 +47,114 @@
       </div>
     </div>
   </nav>
+
   <header id="header">
     <div class="container">
-      <div class="sixteen columns"><a href="#" class="logo"><img src="img/logo.png" alt="FlatBook" /></a>
-        <div class="menu-btn"><i class="icon-reorder"></i></div>
+      <div class="sixteen columns"><a href="#" class="logo"><img src="img/logo-valorae-metas.png" alt="FlatBook" /></a>
+        <div class="menu-btn"><i class="icon-mobile-phone"></i> <small> +55 19</small> 2121.0695</div>
       </div>
     </div>
   </header>
-  <div id="style-switcher">
-    <h2>Color Switcher</h2>
-    <div id="style-switcher-content">
-      <ul id="colors" class="colors">
-        <li><a href="#" class="green" title="green"      data-color="green"></a></li>
-        <li><a href="#" class="lime" title="lime" 	  data-color="lime"></a></li>
-        <li><a href="#" class="orange" title="orange" 	  data-color="orange"></a></li>
-        <li><a href="#" class="royal_blue" title="royal blue" data-color="royal_blue"></a></li>
-        <li><a href="#" class="salmon" title="salmon" 	  data-color="salmon"></a></li>
-        <li><a href="#" class="sky_blue" title="sky blue"   data-color="sky_blue"></a></li>
-        <li><a href="#" class="turquise" title="turquise"   data-color="turquise"></a></li>
-        <li><a href="#" class="violet" title="violet"     data-color="violet"></a></li>
-        <li><a href="#" class="yellow" title="yellow"     data-color="yellow"></a></li>
-      </ul>
-    </div>
-    <div id="style-switcher-tab"><i class="icon-chevron-right"></i></div>
-  </div>
-  <section id="slider"><span class="slider-prev"></span><span class="slider-next"></span>
+
+  <section id="slider" class="header">
     <div class="container">
       <div class="cycle-slideshow" data-cycle-timeout="0" data-cycle-prev=".slider-prev" data-cycle-next=".slider-next"  data-cycle-slides="> div">
-        <div class="slide first">
-          <div class="model"><img src="img/slider/slide_01_model.png" alt="Ebook Template" /></div>
+        <div class="slide">
+          <div class="model"><img src="img/feature-header.png" alt="Ebook Template" /></div>
           <div class="contents">
             <div class="slider-title">
-              <h1>Sell your ebook with</h1>
-              <h2>this unique landing page</h2>
+              <h1> A solução definitiva para gestão de indicadores!</h1>
+              <div class="contact-form">
+                <form method="post" action="http://eriktailor.com/showcase/flatbook_preview_1.0/mailer.php" id="cform">
+                    <input type="text" name="name" class="textfield" placeholder="Nome" required />
+                    <input type="email" name="email" class="textfield" placeholder="E-mail" required />
+                    <input type="fone" name="fone" class="textfield" placeholder="Telefone" required />
+                    <input type="submit" value="QUERO TESTAR AGORA" class="btn" />
+                </form>
+                <div id="success"></div>
+              </div>
             </div>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dui lacus, accumsan quis dapibus non, commodo sed massa. Vivamus sed feugiat nisl. Mauris augue magna, interdum id purus id, dictum consectetur leo. Ut vel metus eleifend, tincidunt arcu vel, ultrices</p>
-            <div class="buttons"><a href="#" class="btn">get it now</a><a href="#" class="btn grey">learn more</a></div>
-          </div>
-        </div>
-        <div class="slide second">
-          <div class="model"><img src="img/slider/slide_03_model.png" alt="Ebook Template" /></div>
-          <div class="contents">
-            <div class="slider-title">
-              <h1>Clean and minimal</h1>
-              <h2>with the latest flat design</h2>
-            </div>
-            <p>Praesent aliquet porta purus ut vehicula. Nam vulputate tristique turpis vel mollis. Fusce non suscipit urna, et porta arcu. Nullam in ultrices diam. Integer nibh nibh, tempus eget fringilla eu, placerat ac justo. Fusce dictum, nulla in viverra nomus.</p>
-            <div class="buttons"><a href="#" class="btn">get it now</a><a href="#" class="btn grey">learn more</a></div>
-          </div>
-        </div>
-        <div class="slide third">
-          <div class="model"><img src="img/slider/slide_02_model.png" alt="Ebook Template" /></div>
-          <div class="contents">
-            <div class="slider-title">
-              <h1>Fully responsive</h1>
-              <h2>built to be easy to use</h2>
-            </div>
-            <p>Cras at est hendrerit, vestibulum leo nec, porta felis. Vivamus pulvinar in mauris ultrices vehicula. Sed et luctus mauris, a varius tortor. Quisque eget pulvinar turpis. Curabitur posuere dapibus scelerisque. In varius mi sem, quis facilisis mauris volutpat eu.</p>
-            <div class="buttons"><a href="#" class="btn">get it now</a><a href="#" class="btn grey">learn more</a></div>
           </div>
         </div>
       </div>
     </div>
   </section>
+
   <section id="features">
     <div class="container">
       <div class="four columns feature">
-        <h2 data-from="0" data-to="971">971</h2>
-        <span>product sales</span></div>
+        <h2 class="client client-movile"></h2></div>
       <div class="four columns feature">
-        <h2 data-from="0" data-to="879">879</h2>
-        <span>facebook likes</span></div>
+        <h2 class="client client-brmalls"></h2></div>
       <div class="four columns feature">
-        <h2 data-from="0" data-to="236">236</h2>
-        <span>working hours</span></div>
+        <h2 class="client client-mdl"></h2></div>
       <div class="four columns feature">
-        <h2 data-from="0" data-to="132">132</h2>
-        <span>coffees drink</span></div>
+        <h2 class="client client-renner"></h2></div>
+      <div class="four columns feature">
+        <h2 class="client client-tecnisa"></h2></div>
     </div>
   </section>
-  <section id="includes">
-    <div class="container">
+
+  <section id="testimonials">
+      <div class="container">
+          <div class="sixteen columns">
+              <h1 class="section-title">Messages from readers</h1>
+              <span class="section-title-bullet"></span></div>
+          <div class="sixteen columns testimonial left"><img src="img/testimonials/client_01.png" alt="" />
+              <h2>Jane Peterson</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dui lacus, accumsan. Sed sagittis velit velit, ut suscipit purus malesuada in. Nam sed magna at quam varius eleifend id quis quam. Maecenas ut purus elementum metus malesuada ultrices quis ut sapien. Nullam vitae eros diam.</p>
+          </div>
+          <div class="sixteen columns testimonial right"><img src="img/testimonials/client_02.png" alt="" />
+              <h2>Joseph Monroe</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dui lacus, accumsan. Sed sagittis velit velit, ut suscipit purus malesuada in. Nam sed magna at quam varius eleifend id quis quam. Maecenas ut purus elementum metus malesuada ultrices quis ut sapien. Nullam vitae eros diam.</p>
+          </div>
+          <div class="sixteen columns testimonial left"><img src="img/testimonials/client_03.png" alt="" />
+              <h2>Sylvia Williams</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dui lacus, accumsan. Sed sagittis velit velit, ut suscipit purus malesuada in. Nam sed magna at quam varius eleifend id quis quam. Maecenas ut purus elementum metus malesuada ultrices quis ut sapien. Nullam vitae eros diam.</p>
+          </div>
+          <div class="clear bottom"></div>
+      </div>
+  </section>
+
+  <section id="slider">
       <div class="sixteen columns">
-        <h1 class="section-title">What you will learn</h1>
-        <span class="section-title-bullet"></span></div>
-      <div class="eight columns include-box"><i class="icon-camera"></i>
-        <h2>Ipsum dolor sit et</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dui lacus, accumsan.</p>
+          <h1 class="section-title">Como podemos ajudar</h1>
+          <span class="section-title-bullet"></span>
       </div>
-      <div class="eight columns include-box"><i class="icon-medkit"></i>
-        <h2>Quisque in rhoncus</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dui lacus, accumsan.</p>
+      <span class="slider-prev"></span><span class="slider-next"></span>
+      <div class="container">
+          <div class="cycle-slideshow" data-cycle-timeout="0" data-cycle-prev=".slider-prev" data-cycle-next=".slider-next"  data-cycle-slides="> div">
+              <div class="slide first">
+                  <div class="contents">
+                      <div class="slider-title">
+                          <h1>Transforme a gestão de metas da sua empresa!</h1>
+                      </div>
+                      <p>Praesent aliquet porta purus ut vehicula. Nam vulputate tristique turpis vel mollis. Fusce non suscipit urna, et porta arcu. Nullam in ultrices diam. Integer nibh nibh, tempus eget fringilla eu, placerat ac justo. Fusce dictum, nulla in viverra nomus.</p>
+                  </div>
+                  <div class="model"><img src="img/slider/slide_01_model.png" alt="Ebook Template" /></div>
+              </div>
+              <div class="slide second">
+                  <div class="contents">
+                      <div class="slider-title">
+                          <h1>Clean and minimal</h1>
+                      </div>
+                      <p>Praesent aliquet porta purus ut vehicula. Nam vulputate tristique turpis vel mollis. Fusce non suscipit urna, et porta arcu. Nullam in ultrices diam. Integer nibh nibh, tempus eget fringilla eu, placerat ac justo. Fusce dictum, nulla in viverra nomus.</p>
+                  </div>
+                  <div class="model"><img src="img/slider/slide_03_model.png" alt="Ebook Template" /></div>
+              </div>
+              <div class="slide third">
+                  <div class="contents">
+                      <div class="slider-title">
+                          <h1>Fully responsive</h1>
+                      </div>
+                      <p>Cras at est hendrerit, vestibulum leo nec, porta felis. Vivamus pulvinar in mauris ultrices vehicula. Sed et luctus mauris, a varius tortor. Quisque eget pulvinar turpis. Curabitur posuere dapibus scelerisque. In varius mi sem, quis facilisis mauris volutpat eu.</p>
+                  </div>
+                  <div class="model"><img src="img/slider/slide_02_model.png" alt="Ebook Template" /></div>
+              </div>
+          </div>
       </div>
-      <div class="eight columns include-box"><i class="icon-envelope"></i>
-        <h2>Sed sagittis velit</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dui lacus, accumsan.</p>
-      </div>
-      <div class="eight columns include-box"><i class="icon-plus-sign-alt"></i>
-        <h2>Morbi nec metus</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dui lacus, accumsan.</p>
-      </div>
-      <div class="eight columns include-box"><i class="icon-suitcase"></i>
-        <h2>Praesent sed tinci</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dui lacus, accumsan.</p>
-      </div>
-      <div class="eight columns include-box"><i class="icon-group"></i>
-        <h2>Nullam vitae eros</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dui lacus, accumsan.</p>
-      </div>
-      <div class="clear bottom"></div>
-    </div>
   </section>
-  <section id="videos">
-    <div class="container">
-      <div class="sixteen columns">
-        <h1 class="section-title dark">Book review videos</h1>
-        <span class="section-title-bullet"></span></div>
-      <div class="eight columns">
-        <div class="video-review">
-          <video id="video_review_1" class="video-js vjs-default-skin" controls preload="auto" width="350" height="230" poster="img/video/video_01_poster.jpg" data-setup='{"example_option":true}'>
-            <source src="http://video-js.zencoder.com/oceans-clip.mp4" type='video/mp4' />
-            <source src="http://video-js.zencoder.com/oceans-clip.webm" type='video/webm' />
-            <source src="http://video-js.zencoder.com/oceans-clip.ogv" type='video/ogg' />
-          </video>
-          <h2>Review video one</h2>
-          <p>Phasellus vehicula ligula neque, a facilisis libero amet facilisis vitae. Aliquam erat volutpat. Suspendisse quis consequat urna. Nulla mollis lacus sit amet mauris.</p>
-        </div>
-      </div>
-      <div class="eight columns">
-        <div class="video-review">
-          <video id="video_review_2" class="video-js vjs-default-skin" controls preload="auto" width="350" height="230" poster="img/video/video_02_poster.jpg" data-setup='{"example_option":true}'>
-            <source src="http://video-js.zencoder.com/oceans-clip.mp4" type='video/mp4' />
-            <source src="http://video-js.zencoder.com/oceans-clip.webm" type='video/webm' />
-            <source src="http://video-js.zencoder.com/oceans-clip.ogv" type='video/ogg' />
-          </video>
-          <h2>Review video two</h2>
-          <p>Phasellus vehicula ligula neque, a facilisis libero amet facilisis vitae. Aliquam erat volutpat. Suspendisse quis consequat urna. Nulla mollis lacus sit amet mauris.</p>
-        </div>
-      </div>
-      <div class="clear bottom"></div>
-    </div>
-  </section>
+
   <section id="samples">
     <div class="container">
       <div class="sixteen columns">
@@ -252,6 +219,7 @@
       </div>
     </div>
   </section>
+
   <section id="cta-bar">
     <div class="container">
       <div class="sixteen columns call-to-action">
@@ -260,158 +228,19 @@
         <a href="#" class="btn">purchase</a></div>
     </div>
   </section>
-  <section id="overview">
-    <div class="container">
-      <div class="sixteen columns">
-        <h1 class="section-title dark">Ebook content overview</h1>
-        <span class="section-title-bullet"></span></div>
-      <div class="four columns chapter-ov"><img src="img/overview/chapter_image_01.png" class="chapter-ov-image-01" alt="ebook landing page chapter overview" />
-        <h2>Chapter I</h2>
-        <p>Curabitur condimentum massa egestas quam tempus fermentum. Donec pretium leo et nibh pretium, id scelerisque turpis dictum.</p>
-      </div>
-      <div class="four columns chapter-ov"><img src="img/overview/chapter_image_02.png" class="chapter-ov-image-02" alt="ebook landing page chapter overview" />
-        <h2>Chapter II</h2>
-        <p>Curabitur condimentum massa egestas quam tempus fermentum. Donec pretium leo et nibh pretium, id scelerisque turpis dictum.</p>
-      </div>
-      <div class="four columns chapter-ov"><img src="img/overview/chapter_image_03.png" class="chapter-ov-image-03" alt="ebook landing page chapter overview" />
-        <h2>Chapter III</h2>
-        <p>Curabitur condimentum massa egestas quam tempus fermentum. Donec pretium leo et nibh pretium, id scelerisque turpis dictum.</p>
-      </div>
-      <div class="four columns chapter-ov"><img src="img/overview/chapter_image_04.png" class="chapter-ov-image-04" alt="ebook landing page chapter overview" />
-        <h2>Chapter IV</h2>
-        <p>Curabitur condimentum massa egestas quam tempus fermentum. Donec pretium leo et nibh pretium, id scelerisque turpis dictum.</p>
-      </div>
-      <div class="four columns chapter-ov"><img src="img/overview/chapter_image_05.png" alt="ebook landing page chapter overview" />
-        <h2>Chapter V</h2>
-        <p>Curabitur condimentum massa egestas quam tempus fermentum. Donec pretium leo et nibh pretium, id scelerisque turpis dictum.</p>
-      </div>
-      <div class="four columns chapter-ov"><img src="img/overview/chapter_image_06.png" alt="ebook landing page chapter overview" />
-        <h2>Chapter VI</h2>
-        <p>Curabitur condimentum massa egestas quam tempus fermentum. Donec pretium leo et nibh pretium, id scelerisque turpis dictum.</p>
-      </div>
-      <div class="four columns chapter-ov"><img src="img/overview/chapter_image_07.png" alt="ebook landing page chapter overview" />
-        <h2>Chapter VII</h2>
-        <p>Curabitur condimentum massa egestas quam tempus fermentum. Donec pretium leo et nibh pretium, id scelerisque turpis dictum.</p>
-      </div>
-      <div class="four columns chapter-ov"><img src="img/overview/chapter_image_08.png" alt="ebook landing page chapter overview" />
-        <h2>Chapter VIII</h2>
-        <p>Curabitur condimentum massa egestas quam tempus fermentum. Donec pretium leo et nibh pretium, id scelerisque turpis dictum.</p>
-      </div>
-      <span class="btn loadmore">load more</span>
-      <div class="clear bottom"></div>
-    </div>
-  </section>
-  <section id="testimonials">
-    <div class="container">
-      <div class="sixteen columns">
-        <h1 class="section-title">Messages from readers</h1>
-        <span class="section-title-bullet"></span></div>
-      <div class="sixteen columns testimonial left"><img src="img/testimonials/client_01.png" alt="" />
-        <h2>Jane Peterson</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dui lacus, accumsan. Sed sagittis velit velit, ut suscipit purus malesuada in. Nam sed magna at quam varius eleifend id quis quam. Maecenas ut purus elementum metus malesuada ultrices quis ut sapien. Nullam vitae eros diam.</p>
-      </div>
-      <div class="sixteen columns testimonial right"><img src="img/testimonials/client_02.png" alt="" />
-        <h2>Joseph Monroe</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dui lacus, accumsan. Sed sagittis velit velit, ut suscipit purus malesuada in. Nam sed magna at quam varius eleifend id quis quam. Maecenas ut purus elementum metus malesuada ultrices quis ut sapien. Nullam vitae eros diam.</p>
-      </div>
-      <div class="sixteen columns testimonial left"><img src="img/testimonials/client_03.png" alt="" />
-        <h2>Sylvia Williams</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dui lacus, accumsan. Sed sagittis velit velit, ut suscipit purus malesuada in. Nam sed magna at quam varius eleifend id quis quam. Maecenas ut purus elementum metus malesuada ultrices quis ut sapien. Nullam vitae eros diam.</p>
-      </div>
-      <div class="clear bottom"></div>
-    </div>
-  </section>
-  <section id="offers">
-    <div class="container">
-      <div class="sixteen columns">
-        <h1 class="section-title dark">Special Offers</h1>
-        <span class="section-title-bullet"></span></div>
-      <div class="five columns price-table">
-        <h2>Simple ebook</h2>
-        <h3>$12</h3>
-        <ul>
-          <li>Lorem ipsum dolor</li>
-          <li>Sit amet, consectetur nam</li>
-          <li>Magna adipiscing elit nam dui </li>
-          <li>Lacus ut accumsan sed</li>
-        </ul>
-        <a href="#" class="btn">buy now</a></div>
-      <div class="six columns price-table large">
-        <h2>Advanced ebook</h2>
-        <h3>$12</h3>
-        <ul>
-          <li>Lorem ipsum dolor</li>
-          <li>Sit amet, consectetur nam</li>
-          <li>Magna adipiscing elit nam dui </li>
-          <li>Lacus ut accumsan sed</li>
-        </ul>
-        <a href="#" class="btn">buy now</a></div>
-      <div class="five columns price-table">
-        <h2>Pro ebook</h2>
-        <h3>$12</h3>
-        <ul>
-          <li>Lorem ipsum dolor</li>
-          <li>Sit amet, consectetur nam</li>
-          <li>Magna adipiscing elit nam dui </li>
-          <li>Lacus ut accumsan sed</li>
-        </ul>
-        <a href="#" class="btn">buy now</a></div>
-    </div>
-  </section>
-  <section id="about">
-    <div class="container">
-      <div class="sixteen columns">
-        <h1 class="section-title">About the author</h1>
-        <span class="section-title-bullet"></span></div>
-      <div class="five columns"><img src="img/author.png" class="profile-image" alt="" /></div>
-      <div class="eleven columns profile-info">
-        <h2>Biography</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dui lacus, etiam accumsan. Sed sagittis velit velit, ut suscipit purus malesuada in. Nam sed adipiscing elit dui lacus.</p>
-        <h2>Private life</h2>
-        <p>Consectetur adipiscing elit. Nam dui lacus, accumsan. Sed sagittis velit velit, ut suscipit purus malesuada in. Nam sed magna at quam varius eleifend id quis sagittis velit velit.</p>
-        <h2>Motivation</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dui lacus, quam accumsan. Sed sagittis velit velit, ut suscipit purus malesuada in. Nam sed et consectetur adipiscing elit.</p>
-      </div>
-      <div class="clear bottom"></div>
-    </div>
-  </section>
+
   <footer id="footer">
-    <div class="contact-bar">
-      <div class="container">
-        <div class="sixteen columns">
-          <div class="contact-info">
-            <h2>Have a question regarding to this ebook?</h2>
-            <span class="btn dark">contact us</span></div>
-        </div>
-      </div>
-    </div>
-    <div class="contact-form">
-      <div class="container">
-        <div class="sixteen columns">
-          <form method="post" action="http://eriktailor.com/showcase/flatbook_preview_1.0/mailer.php" id="cform">
-            <input type="text" name="name" class="textfield" placeholder="Your name" required />
-            <input type="email" name="email" class="textfield" placeholder="Your email address" required />
-            <textarea name="message" class="textarea" placeholder="Your message" required></textarea>
-            <input type="submit" value="send message" class="btn" />
-          </form>
-          <div id="success"></div>
-        </div>
-      </div>
-    </div>
     <div class="footer-bar">
       <div class="container">
         <div class="ten columns">
-          <h2>FlatBook 2013 | All rights reserved.</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dui lacus, accumsan. Sed sagittis velit velit, ut suscipit purus malesuada in. Nam sed magna at quam.</p>
+            <p>Visão - “Sonhamos em ajudar na evolução gerencial das empresas com soluções amigáveis
+                de software para gestão de alto desempenho, buscando sempre ser a primeira opção.”</p>
+            <h2>© Strategy Manager | Todos os direitos reservados.</h2>
         </div>
         <div class="six columns">
           <ul class="social-icons">
             <li><a href="#"><i class="icon-facebook-sign"></i></a></li>
-            <li><a href="#"><i class="icon-twitter-sign"></i></a></li>
             <li><a href="#"><i class="icon-linkedin-sign"></i></a></li>
-            <li><a href="#"><i class="icon-google-plus-sign"></i></a></li>
-            <li><a href="#"><i class="icon-youtube-sign"></i></a></li>
-            <li><a href="#"><i class="icon-tumblr-sign"></i></a></li>
           </ul>
         </div>
       </div>
