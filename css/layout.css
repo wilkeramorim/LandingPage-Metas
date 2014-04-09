@@ -146,7 +146,7 @@ p a,p a:visited {
     font-size: 33px;
     font-weight: normal;
     border-bottom: 1px solid #f1eaea;
-    padding: 80px 0 28px;
+    padding: 40px 0 28px;
     text-align: center;
 }
 
@@ -158,7 +158,7 @@ p a,p a:visited {
     width: 48px;
     height: 5px;
     display: table;
-    margin: -17px auto 75px;
+    margin: -17px auto 25px;
 }
 
 .intro-text {
@@ -355,23 +355,26 @@ p a,p a:visited {
     background: #ececec;
 }
 
-.client{
-    background: url("../img/logo-clientes-valorae-metas.png") no-repeat center;
+#features .feature{
+    display: inline-block;
+    margin: 0 15px;
 }
 
-.client-movile{background-position: }
-.client-brmalls{}
-.client-mdl{}
-.client-renner{}
-.client-tecnisa {}
+.client{
+    background: url("../img/logo-clientes-valorae-metas.png") no-repeat center;
+    display: inline-block;
+    height: 100px;
+    width: 120px;
+}
+
+.client-movile{background-position: 0 0;}
+.client-brmalls{background-position: -182px 0; width: 200px}
+.client-mdl{background-position: -440px 0; width: 130px;}
+.client-renner{background-position: -635px 0; width: 170px;}
+.client-tecnisa {background-position: -854px 0; width: 160px;}
 
 .feature h2 {
-    font-size: 55px;
-    font-weight: bold;
-    border-bottom: 1px solid #e0dbdb;
-    padding-bottom: 12px;
-    display: table;
-    margin: 25px auto 0;
+    font-size: 0;
 }
 
 .feature span {
@@ -461,6 +464,11 @@ p a,p a:visited {
 #samples {
     width: 100%;
     background: #fef9ee;
+    position: relative;
+}
+
+#product{
+    background: url(../img/backgroun-product-presentation.jpg) repeat-x center top #fef9ee;
     position: relative;
 }
 
@@ -593,6 +601,11 @@ p a,p a:visited {
     width: 100%;
     height: auto;
     background: #3a3e3d;
+}
+
+#cta-bar .call-to-action .contact-form{
+  margin: 0 auto;
+    width: 40%;
 }
 
 .call-to-action h1 {
@@ -1129,6 +1142,17 @@ p a,p a:visited {
 
     .menu li:last-child {
         margin-bottom: 0;
+    }
+
+    .menu-btn{
+        color: #FFFFFF;
+        float: right;
+        font-family: "Roboto Slab",serif;
+        font-size: 16px;
+        line-height: 72px;
+        position: absolute;
+        right: -40px;
+        top: 3px;
     }
 
     #features {

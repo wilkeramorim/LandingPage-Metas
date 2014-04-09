@@ -5,30 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1bf28ab4-80c6-49c0-b33f-b10219c532f7" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/colors/metas.css" />
-      <change type="DELETED" beforePath="C:\PROJETOS\Github\landing-page-metas\img\apple-touch-icon-114x114.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\PROJETOS\Github\landing-page-metas\img\apple-touch-icon-72x72.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\PROJETOS\Github\landing-page-metas\img\apple-touch-icon.png" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/testimonials/client_01.png" afterPath="$PROJECT_DIR$/img/testimonials/client_01.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/testimonials/client_02.png" afterPath="$PROJECT_DIR$/img/testimonials/client_02.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/testimonials/client_03.png" afterPath="$PROJECT_DIR$/img/testimonials/client_03.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/favicon.ico" afterPath="$PROJECT_DIR$/img/favicon.ico" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/slider/slide_01_model.png" afterPath="$PROJECT_DIR$/img/slider/slide_01_model.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/slider/slide_02_model.png" afterPath="$PROJECT_DIR$/img/slider/slide_02_model.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/slider/slide_03_model.png" afterPath="$PROJECT_DIR$/img/slider/slide_03_model.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/slider/slide_04_model.png" afterPath="$PROJECT_DIR$/img/slider/slide_04_model.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/slider_bg.jpg" afterPath="$PROJECT_DIR$/img/slider_bg.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/custom.js" afterPath="$PROJECT_DIR$/js/custom.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/logo-clientes-valorae-metas.png" afterPath="$PROJECT_DIR$/img/logo-clientes-valorae-metas.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/layout.css" afterPath="$PROJECT_DIR$/css/layout.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/valorae-metas.html" afterPath="$PROJECT_DIR$/valorae-metas.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="landingpage-valore-metas.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="1bf28ab4-80c6-49c0-b33f-b10219c532f7" time="1396985856545" ignored="false" />
-    <file path="/valorae-metas.html" changelist="1bf28ab4-80c6-49c0-b33f-b10219c532f7" time="1396998661333" ignored="false" />
+    <file path="/valorae-metas.html" changelist="1bf28ab4-80c6-49c0-b33f-b10219c532f7" time="1397001397955" ignored="false" />
     <file path="/a.dummy" changelist="1bf28ab4-80c6-49c0-b33f-b10219c532f7" time="1396997965228" ignored="false" />
-    <file path="/layout.css" changelist="1bf28ab4-80c6-49c0-b33f-b10219c532f7" time="1396999127273" ignored="false" />
+    <file path="/layout.css" changelist="1bf28ab4-80c6-49c0-b33f-b10219c532f7" time="1397001540264" ignored="false" />
     <file path="/custom.js" changelist="1bf28ab4-80c6-49c0-b33f-b10219c532f7" time="1396986612753" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -93,20 +80,17 @@
       <file leaf-file-name="valorae-metas.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/valorae-metas.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="60" column="28" selection-start="3026" selection-end="3026" vertical-scroll-proportion="-1.2745098">
+            <state line="176" column="15" selection-start="9833" selection-end="9833" vertical-scroll-proportion="-5.627451">
               <folding>
+                <element signature="tag#header#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
                 <element signature="tag#form#0;tag#div#0;tag#div#0;tag#div#1;tag#div#0;tag#div#0;tag#div#0;tag#section#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-                <element signature="tag#section#1;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-                <element signature="tag#section#2;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
                 <element signature="tag#section#3;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
                 <element signature="tag#div#0;tag#div#0;tag#div#1;tag#section#3;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-                <element signature="tag#section#4;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-                <element signature="tag#section#5;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-                <element signature="tag#footer#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-                <marker date="1396998844118" expanded="true" signature="1092:1099" placeholder="{...}" />
-                <marker date="1396998844118" expanded="true" signature="1184:1195" placeholder="{...}" />
-                <marker date="1396998844118" expanded="true" signature="1225:1238" placeholder="{...}" />
-                <marker date="1396998844118" expanded="true" signature="19651:19993" placeholder="..." />
+                <element signature="tag#form#0;tag#div#0;tag#div#0;tag#div#0;tag#section#4;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+                <marker date="1397001673873" expanded="true" signature="1092:1099" placeholder="{...}" />
+                <marker date="1397001673873" expanded="true" signature="1184:1195" placeholder="{...}" />
+                <marker date="1397001673873" expanded="true" signature="1225:1238" placeholder="{...}" />
+                <marker date="1397001673873" expanded="true" signature="11155:11497" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -115,7 +99,7 @@
       <file leaf-file-name="layout.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/layout.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="361" column="36" selection-start="5631" selection-end="5631" vertical-scroll-proportion="0.12927757">
+            <state line="598" column="33" selection-start="9553" selection-end="9553" vertical-scroll-proportion="0.3125">
               <folding />
             </state>
           </provider>
@@ -151,8 +135,8 @@
         <option value="$PROJECT_DIR$/js/custom.js" />
         <option value="$PROJECT_DIR$/css/colors/metas.css" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/valorae-metas.html" />
         <option value="$PROJECT_DIR$/css/layout.css" />
+        <option value="$PROJECT_DIR$/valorae-metas.html" />
       </list>
     </option>
   </component>
@@ -247,6 +231,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="MemberChooser.sorted" value="false" />
+    <property name="FullScreen" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="MemberChooser.copyJavadoc" value="false" />
@@ -365,12 +350,12 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1184" y="0" width="740" height="1040" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32954547" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -484,27 +469,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/valorae-metas.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="28" selection-start="3026" selection-end="3026" vertical-scroll-proportion="-1.2745098">
+        <state line="176" column="15" selection-start="9833" selection-end="9833" vertical-scroll-proportion="-5.627451">
           <folding>
+            <element signature="tag#header#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
             <element signature="tag#form#0;tag#div#0;tag#div#0;tag#div#1;tag#div#0;tag#div#0;tag#div#0;tag#section#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="tag#section#1;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="tag#section#2;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
             <element signature="tag#section#3;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
             <element signature="tag#div#0;tag#div#0;tag#div#1;tag#section#3;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="tag#section#4;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="tag#section#5;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="tag#footer#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-            <marker date="1396998844118" expanded="true" signature="1092:1099" placeholder="{...}" />
-            <marker date="1396998844118" expanded="true" signature="1184:1195" placeholder="{...}" />
-            <marker date="1396998844118" expanded="true" signature="1225:1238" placeholder="{...}" />
-            <marker date="1396998844118" expanded="true" signature="19651:19993" placeholder="..." />
+            <element signature="tag#form#0;tag#div#0;tag#div#0;tag#div#0;tag#section#4;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+            <marker date="1397001673873" expanded="true" signature="1092:1099" placeholder="{...}" />
+            <marker date="1397001673873" expanded="true" signature="1184:1195" placeholder="{...}" />
+            <marker date="1397001673873" expanded="true" signature="1225:1238" placeholder="{...}" />
+            <marker date="1397001673873" expanded="true" signature="11155:11497" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/layout.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="361" column="36" selection-start="5631" selection-end="5631" vertical-scroll-proportion="0.12927757">
+        <state line="598" column="33" selection-start="9553" selection-end="9553" vertical-scroll-proportion="0.3125">
           <folding />
         </state>
       </provider>
