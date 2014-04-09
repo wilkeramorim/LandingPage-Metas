@@ -267,14 +267,14 @@ p a,p a:visited {
 }
 
 .slider-next,.slider-prev {
-    width: 21px;
-    height: 78px;
+    cursor: pointer;
     display: table;
+    height: 250px;
+    opacity: 0.7;
     position: absolute;
     top: 44%;
-    opacity: 0.7;
-    cursor: pointer;
-    z-index: 100;
+    width: 30px;
+    z-index: 1000;
 }
 
 .slider-next:hover,.slider-prev:hover {
@@ -472,6 +472,12 @@ p a,p a:visited {
     position: relative;
 }
 
+#product h4{text-align: center}
+
+#product .container{
+    width: 880px;
+}
+
 .tablet-mockup-bg {
     width: 100%;
     height: 417px;
@@ -604,8 +610,10 @@ p a,p a:visited {
 }
 
 #cta-bar .call-to-action .contact-form{
-  margin: 0 auto;
+    margin: 0 auto;
     width: 40%;
+    left: -35px;
+    position: relative;
 }
 
 .call-to-action h1 {
@@ -740,10 +748,37 @@ p a,p a:visited {
     width: 100%;
     height: auto;
     background: #fff;
+    position: relative;
+    margin: 0 auto 100px;
 }
 
+#testimonials > .container{
+
+}
+
+#testimonials > .slider-prev, #testimonials > .slider-next{
+    cursor: pointer;
+    display: table;
+    height: 85px;
+    opacity: 0.7;
+    position: absolute;
+    top: 60%;
+    width: 25px;
+    z-index: 1000;
+}
+#testimonials > .slider-prev{
+    background: url("../img/slider/prev2.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0)
+}
+#testimonials > .slider-next{
+    background: url("../img/slider/next2.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0)
+}
+
+
 .testimonial {
-    margin-bottom: 20px;
+    left: 15px;
+    margin: 0 auto;
+    position: relative;
+    top: 150px;
 }
 
 .js .testimonial {
@@ -752,16 +787,17 @@ p a,p a:visited {
 
 .testimonial.left img {
     float: left;
-    margin-right: 35px;
 }
 
 .testimonial.left h2 {
     float: left;
+    color:#000;
 }
 
 .testimonial.left p {
     float: left;
     width: 80%;
+    color:#444;
 }
 
 .testimonial.right img {
@@ -954,6 +990,7 @@ p a,p a:visited {
 
 .footer-bar h2 {
     color: #fff;
+    font-size: 14px;
 }
 
 .social-icons {
@@ -1321,6 +1358,7 @@ p a,p a:visited {
 
     .contact-form{
         margin: 0 0 15px -45px;
+        left: auto;
     }
 
     .contact-form .btn{
@@ -1400,4 +1438,5 @@ p a,p a:visited {
     .footer-bar h2 {
         font-size: 16px;
     }
+
 }

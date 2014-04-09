@@ -196,7 +196,7 @@ $(function() {
   $("#cform").on("submit",function(e){
     
     if($("#cform")[0].checkValidity()) {
-      $.post("mailer.html", $("#cform").serialize(),  function(response) {
+      $.post("valoare-metas.html", $("#cform").serialize(),  function(response) {
         $('#success').fadeIn(500).html(response);
         $("#cform").fadeOut(300);
 		e.preventDefault();

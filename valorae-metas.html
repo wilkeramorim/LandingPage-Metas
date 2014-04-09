@@ -31,22 +31,6 @@
 <!-- Primary Page Layout
 ================================================== -->
 <div id="wrapper">
-  <nav id="menu" class="menu hidden">
-    <div class="container">
-      <div class="sixteen columns">
-        <ul>
-          <li><i class="icon-home"></i><a href="#slider">Home</a></li>
-          <li><i class="icon-book"></i><a href="#includes">Features</a></li>
-          <li><i class="icon-play-circle"></i><a href="#videos">Videos</a></li>
-          <li><i class="icon-file-text-alt"></i><a href="#samples">Samples</a></li>
-          <li><i class="icon-sitemap"></i><a href="#overview">Overview</a></li>
-          <li><i class="icon-quote-left"></i><a href="#testimonials">Reviews</a></li>
-          <li><i class="icon-trophy"></i><a href="#offers">Offers</a></li>
-          <li><i class="icon-user"></i><a href="#about">About</a></li>
-        </ul>
-      </div>
-    </div>
-  </nav>
 
   <header id="header">
     <div class="container">
@@ -64,11 +48,12 @@
           <div class="contents">
             <div class="slider-title">
               <h1> A solução definitiva para gestão de indicadores!</h1>
+                <h4>Acompanhe KPIs, planos de ação e todo o ciclo PDCA em painéis intuitivos e bonitos.</h4>
               <div class="contact-form">
-                <form method="post" action="http://eriktailor.com/showcase/flatbook_preview_1.0/mailer.php" id="cform">
+                <form method="post" action="mailer.php" id="cform">
                     <input type="text" name="name" class="textfield" placeholder="Nome" required />
                     <input type="email" name="email" class="textfield" placeholder="E-mail" required />
-                    <input type="fone" name="fone" class="textfield" placeholder="Telefone" required />
+                    <input type="fone" name="fone" class="textfield" placeholder="Telefone" required onblur="fone(this.form);" maxlength="12" />
                     <input type="submit" value="QUERO TESTAR AGORA" class="btn" />
                 </form>
                 <div id="success"></div>
@@ -96,60 +81,90 @@
   </section>
 
   <section id="testimonials">
+      <span class="slider-prev"></span><span class="slider-next"></span>
       <div class="container">
           <div class="sixteen columns">
               <h1 class="section-title">Depoimentos</h1>
-              <span class="section-title-bullet"></span></div>
-          <div class="sixteen columns testimonial left"><img src="img/testimonials/client_01.png" alt="" />
-              <h2>Jane Peterson</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dui lacus, accumsan. Sed sagittis velit velit, ut suscipit purus malesuada in. Nam sed magna at quam varius eleifend id quis quam. Maecenas ut purus elementum metus malesuada ultrices quis ut sapien. Nullam vitae eros diam.</p>
+              <span class="section-title-bullet"></span>
           </div>
-          <div class="sixteen columns testimonial right"><img src="img/testimonials/client_02.png" alt="" />
-              <h2>Joseph Monroe</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dui lacus, accumsan. Sed sagittis velit velit, ut suscipit purus malesuada in. Nam sed magna at quam varius eleifend id quis quam. Maecenas ut purus elementum metus malesuada ultrices quis ut sapien. Nullam vitae eros diam.</p>
+          <div class="cycle-slideshow" data-cycle-timeout="0" data-cycle-prev=".slider-prev" data-cycle-next=".slider-next"  data-cycle-slides="> div">
+              <div class="first">
+                  <div class="sixteen testimonial left"><img src="img/testimonials/client_01.png" alt="" />
+                      <h2>Bianca Bastos | Diretora de Gente & Gestão</h2>
+                      <p>“A BRMalls, a maior holding de shoppings da América Latina, é uma empresa com uma cultura forte de foco em resultados e por isso nosso Modelo de Gestão é baseado em metas individuais para mais de 1000 colaboradores espalhados em mais de 20 cidades, para conseguirmos garantir uniformidade e controle deste processos utilizamos o Valorae, assim conseguimos ter em um único sistema e com uma única mascara 100% dos quadros de metas dos nossos colaboradores”.</p>
+                  </div>
+              </div>
+              <div class="second">
+                  <div class="sixteen testimonial left"><img src="img/testimonials/client_02.png" alt="" />
+                      <h2>Fabricio Bloisi | CEO & Founder</h2>
+                      <p>"A Movile é líder em desenvolvimento de plataformas de comércio e conteúdo móvel na América Latina. Com produtos para celulares, smartphones e tablets, a empresa vêm crescendo fortemente nos últimos anos.
+                          O Valorae é fundamental para conseguirmos organizar nossas operações nos 9 escritórios em 6 países onde operamos".</p>
+                  </div>
+              </div>
+              <div class="third">
+                  <div class="sixteen testimonial left"><img src="img/testimonials/client_03.png" alt="" />
+                      <h2>Virginia Rodriguez Cereijo | HR Manager</h2>
+                      <p>“Trabalhamos em parceria com a Strategy desde 2009, na Gestão de Metas e na Avaliação 360°. Desde então, a equipe e o sistema vêm acompanhando nosso crecimento e sempre se adaptando às novas necessidades e demandas. Como grande diferencial, a Strategy conta com uma equipe que atende nossos prazos curtos, se adapta com rapidez às nossas solicitações prioritárias e está sempre disponível para nos dar o suporte técnico necessário. O sistema é extremamente “friendly” e customizável”.</p>
+                  </div>
+              </div>
           </div>
-          <div class="sixteen columns testimonial left"><img src="img/testimonials/client_03.png" alt="" />
-              <h2>Sylvia Williams</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dui lacus, accumsan. Sed sagittis velit velit, ut suscipit purus malesuada in. Nam sed magna at quam varius eleifend id quis quam. Maecenas ut purus elementum metus malesuada ultrices quis ut sapien. Nullam vitae eros diam.</p>
-          </div>
-          <div class="clear bottom"></div>
       </div>
+
   </section>
 
   <section id="product">
-      <div class="sixteen columns">
-          <h1 class="section-title">Como podemos ajudar</h1>
-          <span class="section-title-bullet"></span>
-      </div>
       <span class="slider-prev"></span><span class="slider-next"></span>
       <div class="container">
           <div class="cycle-slideshow" data-cycle-timeout="0" data-cycle-prev=".slider-prev" data-cycle-next=".slider-next"  data-cycle-slides="> div">
-              <div class="slide first">
+              <div class="first">
                   <div class="contents">
                       <div class="slider-title">
-                          <h1>Transforme a gestão de metas da sua empresa!</h1>
+                          <h1 class="section-title">Modo Reunião</h1>
+                          <span class="section-title-bullet"></span>
                       </div>
-                      <p>Praesent aliquet porta purus ut vehicula. Nam vulputate tristique turpis vel mollis. Fusce non suscipit urna, et porta arcu. Nullam in ultrices diam. Integer nibh nibh, tempus eget fringilla eu, placerat ac justo. Fusce dictum, nulla in viverra nomus.</p>
+                      <h4>Organizar reuniões de análise de resultados.</h4>
                   </div>
                   <div class="model"><img src="img/slider/slide_01_model.png" alt="Ebook Template" /></div>
               </div>
-              <div class="slide second">
+              <div class="second">
                   <div class="contents">
                       <div class="slider-title">
-                          <h1>Clean and minimal</h1>
+                          <h1 class="section-title">Mapa Estratégico</h1>
+                          <span class="section-title-bullet"></span>
                       </div>
-                      <p>Praesent aliquet porta purus ut vehicula. Nam vulputate tristique turpis vel mollis. Fusce non suscipit urna, et porta arcu. Nullam in ultrices diam. Integer nibh nibh, tempus eget fringilla eu, placerat ac justo. Fusce dictum, nulla in viverra nomus.</p>
+                      <h4>Crie arvores de indicadores relacionados - suporta BSC.</h4>
+                  </div>
+                  <div class="model"><img src="img/slider/slide_02_model.png" alt="Ebook Template" /></div>
+              </div>
+              <div class="third">
+                  <div class="contents">
+                      <div class="slider-title">
+                          <h1 class="section-title">Plano de Ação</h1>
+                          <span class="section-title-bullet"></span>
+                      </div>
+                      <h4>Identifique e corrija desvios.</h4>
                   </div>
                   <div class="model"><img src="img/slider/slide_03_model.png" alt="Ebook Template" /></div>
               </div>
-              <div class="slide third">
+              <div class="fourth">
                   <div class="contents">
                       <div class="slider-title">
-                          <h1>Fully responsive</h1>
+                          <h1 class="section-title">Gestão de Pendências</h1>
+                          <span class="section-title-bullet"></span>
                       </div>
-                      <p>Cras at est hendrerit, vestibulum leo nec, porta felis. Vivamus pulvinar in mauris ultrices vehicula. Sed et luctus mauris, a varius tortor. Quisque eget pulvinar turpis. Curabitur posuere dapibus scelerisque. In varius mi sem, quis facilisis mauris volutpat eu.</p>
+                      <h4>Gerencie todas as atividades da empresa.</h4>
                   </div>
-                  <div class="model"><img src="img/slider/slide_02_model.png" alt="Ebook Template" /></div>
+                  <div class="model"><img src="img/slider/slide_04_model.png" alt="Ebook Template" /></div>
+              </div>
+              <div class="fifth">
+                  <div class="contents">
+                      <div class="slider-title">
+                          <h1 class="section-title">Painel de Metas</h1>
+                          <span class="section-title-bullet"></span>
+                      </div>
+                      <h4>Acompanhe indicadores através de painéis.</h4>
+                  </div>
+                  <div class="model"><img src="img/slider/slide_05_model.png" alt="Ebook Template" /></div>
               </div>
           </div>
       </div>
@@ -160,7 +175,7 @@
       <div class="sixteen columns call-to-action">
         <h1>Gostei do sistema Valorae e quero ver uma apresentação de teste para conhecer mais esta solução.</h1>
           <div class="contact-form">
-              <form method="post" action="http://eriktailor.com/showcase/flatbook_preview_1.0/mailer.php" id="cform">
+              <form method="post" action="mailer.php" id="cform">
                   <input type="text" name="name" class="textfield" placeholder="Nome" required />
                   <input type="email" name="email" class="textfield" placeholder="E-mail" required />
                   <input type="fone" name="fone" class="textfield" placeholder="Telefone" required />
@@ -168,7 +183,6 @@
               </form>
               <div id="success"></div>
           </div>
-        <p>Entraremos em contato através de seu telefone.</p>
     </div>
   </section>
 
