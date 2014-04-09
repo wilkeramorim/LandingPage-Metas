@@ -126,7 +126,7 @@
       <file leaf-file-name="custom.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/custom.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="200" column="49" selection-start="6310" selection-end="6310" vertical-scroll-proportion="0.50059456">
+            <state line="189" column="10" selection-start="6032" selection-end="6032" vertical-scroll-proportion="0.2782402">
               <folding />
             </state>
           </provider>
@@ -568,7 +568,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/custom.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="200" column="49" selection-start="6310" selection-end="6310" vertical-scroll-proportion="0.50059456">
+        <state line="189" column="10" selection-start="6032" selection-end="6032" vertical-scroll-proportion="0.2782402">
           <folding />
         </state>
       </provider>
