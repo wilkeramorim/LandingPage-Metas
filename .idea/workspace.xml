@@ -2,38 +2,34 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1bf28ab4-80c6-49c0-b33f-b10219c532f7" name="Default" comment="">
-      <change type="DELETED" beforePath="C:\PROJETOS\Github\landing-page-metas\app_page_layout.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\PROJETOS\Github\landing-page-metas\css\colors\green.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\PROJETOS\Github\landing-page-metas\css\colors\lime.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\PROJETOS\Github\landing-page-metas\css\colors\orange.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\PROJETOS\Github\landing-page-metas\css\colors\royal_blue.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\PROJETOS\Github\landing-page-metas\css\colors\salmon.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\PROJETOS\Github\landing-page-metas\css\colors\sky_blue.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\PROJETOS\Github\landing-page-metas\css\colors\turquise.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\PROJETOS\Github\landing-page-metas\css\colors\violet.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\PROJETOS\Github\landing-page-metas\css\colors\yellow.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\PROJETOS\Github\landing-page-metas\ebook_page_layout.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\PROJETOS\Github\landing-page-metas\index.html" afterPath="" />
-      <change type="MOVED" beforePath="C:\PROJETOS\Github\landing-page-metas\valorae-competencias.html" afterPath="$PROJECT_DIR$/mailer.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/slider/next.png" afterPath="$PROJECT_DIR$/img/slider/next.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/slider/prev.png" afterPath="$PROJECT_DIR$/img/slider/prev.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/slider/slide_02_model.png" afterPath="$PROJECT_DIR$/img/slider/slide_02_model.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/slider/slide_03_model.png" afterPath="$PROJECT_DIR$/img/slider/slide_03_model.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/slider/slide_04_model.png" afterPath="$PROJECT_DIR$/img/slider/slide_04_model.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/slider/slide_05_model.png" afterPath="$PROJECT_DIR$/img/slider/slide_05_model.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/custom.js" afterPath="$PROJECT_DIR$/js/custom.js" />
+      <change type="DELETED" beforePath="C:\PROJETOS\Github\landing-page-metas\css\Descr.WD3" afterPath="" />
+      <change type="DELETED" beforePath="C:\PROJETOS\Github\landing-page-metas\css\colors\Descr.WD3" afterPath="" />
+      <change type="DELETED" beforePath="C:\PROJETOS\Github\landing-page-metas\font\Descr.WD3" afterPath="" />
+      <change type="DELETED" beforePath="C:\PROJETOS\Github\landing-page-metas\img\Descr.WD3" afterPath="" />
+      <change type="DELETED" beforePath="C:\PROJETOS\Github\landing-page-metas\img\author.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\PROJETOS\Github\landing-page-metas\img\logo-valorae-competencias.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\PROJETOS\Github\landing-page-metas\img\logo.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\PROJETOS\Github\landing-page-metas\img\overlay_bg.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\PROJETOS\Github\landing-page-metas\img\overview\Descr.WD3" afterPath="" />
+      <change type="DELETED" beforePath="C:\PROJETOS\Github\landing-page-metas\img\samples\Descr.WD3" afterPath="" />
+      <change type="DELETED" beforePath="C:\PROJETOS\Github\landing-page-metas\img\slider\Descr.WD3" afterPath="" />
+      <change type="DELETED" beforePath="C:\PROJETOS\Github\landing-page-metas\img\tablet_mockup.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\PROJETOS\Github\landing-page-metas\img\testimonials\Descr.WD3" afterPath="" />
+      <change type="DELETED" beforePath="C:\PROJETOS\Github\landing-page-metas\img\valorae-touch-icon-114x114.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\PROJETOS\Github\landing-page-metas\mailer.html" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/layout.css" afterPath="$PROJECT_DIR$/css/layout.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mailer.php" afterPath="$PROJECT_DIR$/mailer.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/valorae-metas.html" afterPath="$PROJECT_DIR$/valorae-metas.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="landingpage-valore-metas.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="1bf28ab4-80c6-49c0-b33f-b10219c532f7" time="1397052233059" ignored="false" />
-    <file path="/valorae-metas.html" changelist="1bf28ab4-80c6-49c0-b33f-b10219c532f7" time="1397064800329" ignored="false" />
+    <file path="/Dummy.txt" changelist="1bf28ab4-80c6-49c0-b33f-b10219c532f7" time="1397138808483" ignored="false" />
+    <file path="/valorae-metas.html" changelist="1bf28ab4-80c6-49c0-b33f-b10219c532f7" time="1397170571173" ignored="false" />
     <file path="/a.dummy" changelist="1bf28ab4-80c6-49c0-b33f-b10219c532f7" time="1396997965228" ignored="false" />
     <file path="/layout.css" changelist="1bf28ab4-80c6-49c0-b33f-b10219c532f7" time="1397067729680" ignored="false" />
     <file path="/custom.js" changelist="1bf28ab4-80c6-49c0-b33f-b10219c532f7" time="1396986612753" ignored="false" />
-    <file path="/mailer.php" changelist="1bf28ab4-80c6-49c0-b33f-b10219c532f7" time="1397064493545" ignored="false" />
+    <file path="/mailer.php" changelist="1bf28ab4-80c6-49c0-b33f-b10219c532f7" time="1397077337055" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,45 +93,26 @@
       <file leaf-file-name="valorae-metas.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/valorae-metas.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="181" column="47" selection-start="10255" selection-end="10255" vertical-scroll-proportion="-8.423077">
+            <state line="124" column="42" selection-start="7170" selection-end="7170" vertical-scroll-proportion="-16.461538">
               <folding>
-                <element signature="tag#div#0;tag#section#1;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-                <element signature="tag#section#2;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-                <element signature="tag#div#0;tag#div#0;tag#div#0;tag#section#3;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-                <element signature="tag#div#1;tag#div#0;tag#div#0;tag#section#3;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-                <element signature="tag#div#2;tag#div#0;tag#div#0;tag#section#3;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-                <element signature="tag#div#3;tag#div#0;tag#div#0;tag#section#3;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-                <marker date="1397065192173" expanded="true" signature="1092:1099" placeholder="{...}" />
-                <marker date="1397065192173" expanded="true" signature="1184:1195" placeholder="{...}" />
-                <marker date="1397065192173" expanded="true" signature="1225:1238" placeholder="{...}" />
-                <marker date="1397065192173" expanded="true" signature="11781:12123" placeholder="..." />
+                <element signature="tag#div#0;tag#div#0;tag#section#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+                <element signature="tag#div#1;tag#div#0;tag#div#0;tag#section#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+                <element signature="tag#div#0;tag#div#0;tag#div#1;tag#div#0;tag#div#0;tag#section#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+                <element signature="tag#form#0;tag#div#0;tag#div#0;tag#div#1;tag#div#0;tag#div#0;tag#section#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+                <element signature="tag#section#1;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+                <marker date="1397170572512" expanded="true" signature="1092:1099" placeholder="{...}" />
+                <marker date="1397170572512" expanded="true" signature="1184:1195" placeholder="{...}" />
+                <marker date="1397170572512" expanded="true" signature="1225:1238" placeholder="{...}" />
+                <marker date="1397170572512" expanded="true" signature="11567:11909" placeholder="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mailer.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mailer.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="23" selection-start="798" selection-end="798" vertical-scroll-proportion="-15.653846">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="custom.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/js/custom.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="189" column="10" selection-start="6032" selection-end="6032" vertical-scroll-proportion="0.2782402">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="layout.css" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="layout.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/layout.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1010" column="30" selection-start="16317" selection-end="16317" vertical-scroll-proportion="-3.4">
+            <state line="359" column="1" selection-start="5557" selection-end="5557" vertical-scroll-proportion="0.9193357">
               <folding />
             </state>
           </provider>
@@ -170,16 +147,16 @@
       <list>
         <option value="$PROJECT_DIR$/css/colors/metas.css" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/valorae-metas.html" />
         <option value="$PROJECT_DIR$/js/custom.js" />
-        <option value="$PROJECT_DIR$/css/layout.css" />
         <option value="$PROJECT_DIR$/mailer.php" />
+        <option value="$PROJECT_DIR$/valorae-metas.html" />
+        <option value="$PROJECT_DIR$/css/layout.css" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1023" />
-    <option name="width" value="901" />
+    <option name="x" value="889" />
+    <option name="width" value="1035" />
     <option name="height" value="1040" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -210,8 +187,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -232,6 +207,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -246,8 +223,8 @@
     <property name="FullScreen" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -267,19 +244,6 @@
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -310,6 +274,19 @@
       <listeners />
       <method />
     </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" />
@@ -323,13 +300,6 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="" />
       <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
-      <JSDebuggerConfigurationSettings>
-        <option name="engineId" />
-        <option name="fileUrl" />
-      </JSDebuggerConfigurationSettings>
       <method />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
@@ -351,6 +321,13 @@
       </option>
       <envs />
       <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
+      <JSDebuggerConfigurationSettings>
+        <option name="engineId" value="embedded" />
+        <option name="fileUrl" />
+      </JSDebuggerConfigurationSettings>
       <method />
     </configuration>
     <list size="0" />
@@ -386,13 +363,12 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1023" y="0" width="901" height="1040" extended-state="0" />
-    <editor active="true" />
+    <frame x="889" y="0" width="1035" height="1040" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -401,17 +377,18 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26460072" sideWeight="0.67045456" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23638232" sideWeight="0.67045456" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -485,16 +462,53 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding>
-            <element signature="tag#div#0;tag#section#1;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="tag#section#2;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="tag#div#0;tag#div#0;tag#div#0;tag#section#3;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="tag#div#1;tag#div#0;tag#div#0;tag#section#3;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="tag#div#2;tag#div#0;tag#div#0;tag#section#3;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="tag#div#3;tag#div#0;tag#div#0;tag#section#3;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-            <marker date="1397065192173" expanded="true" signature="1092:1099" placeholder="{...}" />
-            <marker date="1397065192173" expanded="true" signature="1184:1195" placeholder="{...}" />
-            <marker date="1397065192173" expanded="true" signature="1225:1238" placeholder="{...}" />
-            <marker date="1397065192173" expanded="true" signature="11781:12123" placeholder="..." />
+            <element signature="tag#div#0;tag#div#0;tag#section#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+            <element signature="tag#div#1;tag#div#0;tag#div#0;tag#section#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+            <element signature="tag#div#0;tag#div#0;tag#div#1;tag#div#0;tag#div#0;tag#section#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+            <element signature="tag#form#0;tag#div#0;tag#div#0;tag#div#1;tag#div#0;tag#div#0;tag#section#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+            <element signature="tag#section#1;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+            <marker date="1397170572512" expanded="true" signature="1092:1099" placeholder="{...}" />
+            <marker date="1397170572512" expanded="true" signature="1184:1195" placeholder="{...}" />
+            <marker date="1397170572512" expanded="true" signature="1225:1238" placeholder="{...}" />
+            <marker date="1397170572512" expanded="true" signature="11567:11909" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mailer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="43" selection-start="1264" selection-end="1264" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/layout.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1010" column="30" selection-start="16317" selection-end="16317" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/colors/metas.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="16" selection-start="853" selection-end="853" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/valorae-metas.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="tag#div#0;tag#div#0;tag#section#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+            <element signature="tag#div#1;tag#div#0;tag#div#0;tag#section#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+            <element signature="tag#div#0;tag#div#0;tag#div#1;tag#div#0;tag#div#0;tag#section#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+            <element signature="tag#form#0;tag#div#0;tag#div#0;tag#div#1;tag#div#0;tag#div#0;tag#section#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+            <element signature="tag#section#1;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+            <marker date="1397170572512" expanded="true" signature="1092:1099" placeholder="{...}" />
+            <marker date="1397170572512" expanded="true" signature="1184:1195" placeholder="{...}" />
+            <marker date="1397170572512" expanded="true" signature="1225:1238" placeholder="{...}" />
+            <marker date="1397170572512" expanded="true" signature="11567:11909" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -527,48 +541,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mailer.html">
+    <entry file="file://$PROJECT_DIR$/js/custom.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="22" selection-start="22" selection-end="22" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="189" column="10" selection-start="6032" selection-end="6032" vertical-scroll-proportion="0.2782402" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/layout.css">
+    <entry file="file://$PROJECT_DIR$/mailer.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1010" column="30" selection-start="16317" selection-end="16317" vertical-scroll-proportion="-3.4">
+        <state line="15" column="32" selection-start="702" selection-end="702" vertical-scroll-proportion="0.30722892">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/valorae-metas.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="181" column="47" selection-start="10255" selection-end="10255" vertical-scroll-proportion="-8.423077">
+        <state line="124" column="42" selection-start="7170" selection-end="7170" vertical-scroll-proportion="-16.461538">
           <folding>
-            <element signature="tag#div#0;tag#section#1;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="tag#section#2;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="tag#div#0;tag#div#0;tag#div#0;tag#section#3;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="tag#div#1;tag#div#0;tag#div#0;tag#section#3;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="tag#div#2;tag#div#0;tag#div#0;tag#section#3;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="tag#div#3;tag#div#0;tag#div#0;tag#section#3;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-            <marker date="1397065192173" expanded="true" signature="1092:1099" placeholder="{...}" />
-            <marker date="1397065192173" expanded="true" signature="1184:1195" placeholder="{...}" />
-            <marker date="1397065192173" expanded="true" signature="1225:1238" placeholder="{...}" />
-            <marker date="1397065192173" expanded="true" signature="11781:12123" placeholder="..." />
+            <element signature="tag#div#0;tag#div#0;tag#section#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+            <element signature="tag#div#1;tag#div#0;tag#div#0;tag#section#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+            <element signature="tag#div#0;tag#div#0;tag#div#1;tag#div#0;tag#div#0;tag#section#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+            <element signature="tag#form#0;tag#div#0;tag#div#0;tag#div#1;tag#div#0;tag#div#0;tag#section#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+            <element signature="tag#section#1;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+            <marker date="1397170572512" expanded="true" signature="1092:1099" placeholder="{...}" />
+            <marker date="1397170572512" expanded="true" signature="1184:1195" placeholder="{...}" />
+            <marker date="1397170572512" expanded="true" signature="1225:1238" placeholder="{...}" />
+            <marker date="1397170572512" expanded="true" signature="11567:11909" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mailer.php">
+    <entry file="file://$PROJECT_DIR$/css/layout.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="23" selection-start="798" selection-end="798" vertical-scroll-proportion="-15.653846">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/custom.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="189" column="10" selection-start="6032" selection-end="6032" vertical-scroll-proportion="0.2782402">
+        <state line="359" column="1" selection-start="5557" selection-end="5557" vertical-scroll-proportion="0.9193357">
           <folding />
         </state>
       </provider>
