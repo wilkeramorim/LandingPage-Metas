@@ -146,7 +146,7 @@ p a,p a:visited {
     font-size: 33px;
     font-weight: normal;
     border-bottom: 1px solid #f1eaea;
-    padding: 40px 0 28px;
+    padding: 40px 0 5px;
     text-align: center;
 }
 
@@ -158,7 +158,7 @@ p a,p a:visited {
     width: 48px;
     height: 5px;
     display: table;
-    margin: -17px auto 25px;
+    margin: -17px auto 5px;
 }
 
 .intro-text {
@@ -266,7 +266,7 @@ p a,p a:visited {
     width: 100%;
 }
 
-.slider-next,.slider-prev {
+.slider-next,.slider-prev,.next,.prev {
     cursor: pointer;
     display: table;
     height: 250px;
@@ -277,16 +277,16 @@ p a,p a:visited {
     z-index: 1000;
 }
 
-.slider-next:hover,.slider-prev:hover {
+.slider-next:hover,.slider-prev:hover,.next:hover,.prev :hover {
     opacity: 1;
 }
 
-.slider-next {
+.slider-next, .next {
     background: url('../img/slider/next.png') no-repeat;
     right: 5%;
 }
 
-.slider-prev {
+.slider-prev, .prev {
     background: url('../img/slider/prev.png') no-repeat;
     left: 5%;
 }
@@ -303,6 +303,8 @@ p a,p a:visited {
 .slide .btn {
     margin-left: 15px;
 }
+
+.slider-title h4{color:#ccc;}
 
 .slide h1,.slide h2 {
     background: none repeat scroll 0 0 rgba(0, 0, 0, 0.2);
@@ -345,19 +347,22 @@ p a,p a:visited {
     animation-delay: 0.3s;
 }
 
-.no-js .slide.second,.no-js .slide.third,.no-js .slider-next,.no-js .slider-prev {
+.no-js .slide.second,.no-js .slide.third,.no-js .slider-next,.no-js .slider-prev, .no-js .next,.no-js .prev{
     display: none;
 }
 
 #features {
     width: 100%;
-    height: 170px;
+    height: 200px;
     background: #ececec;
+	margin:50px 0;
 }
 
 #features > .container {
     padding: 40px 0 20px;
 }
+
+#features > .container  h4{text-align:center;}
 
 #features .feature{
     display: inline-block;
@@ -479,7 +484,21 @@ p a,p a:visited {
 #product h4{text-align: center}
 
 #product .container{
-    width: 880px;
+
+}
+
+#product .cycle-slide.cycle-slide-active {
+    left: 8% !important;
+}
+
+#product .model > img {
+    width: 100%;
+}
+
+@media only screen and (min-width:1280px) {
+	#product .model {
+
+	}
 }
 
 .tablet-mockup-bg {
@@ -760,7 +779,7 @@ p a,p a:visited {
 
 }
 
-#testimonials > .slider-prev, #testimonials > .slider-next{
+#testimonials > .prev, #testimonials > .next{
     cursor: pointer;
     display: table;
     height: 85px;
@@ -770,10 +789,10 @@ p a,p a:visited {
     width: 25px;
     z-index: 1000;
 }
-#testimonials > .slider-prev{
+#testimonials > .prev{
     background: url("../img/slider/prev2.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0)
 }
-#testimonials > .slider-next{
+#testimonials > .next{
     background: url("../img/slider/next2.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0)
 }
 
@@ -782,7 +801,7 @@ p a,p a:visited {
     left: 15px;
     margin: 0 auto;
     position: relative;
-    top: 150px;
+    top: 115px;
 }
 
 .js .testimonial {
@@ -800,7 +819,7 @@ p a,p a:visited {
 
 .testimonial.left p {
     float: left;
-    width: 80%;
+    width: 75%;
     color:#444;
 }
 
@@ -934,7 +953,7 @@ p a,p a:visited {
     padding-top: 16px;
 }
 
-.textfield,.textarea {
+.textfield, .textarea {
     border: 1px solid #CCCCCC;
     border-radius: 0;
     color: #000000;
@@ -946,6 +965,13 @@ p a,p a:visited {
     padding: 5px;
     width: 350px;
 }
+
+.text-name{
+    display: inline;
+    margin: 10px 0 5px 15px;
+    width: 159px;
+}
+
 
 .textarea {
     overflow-y: auto;
@@ -997,6 +1023,11 @@ p a,p a:visited {
     font-size: 14px;
 }
 
+.footer-bar h2  > img{
+padding-right: 15px;
+vertical-align: top;
+}
+
 .social-icons {
     float: right;
     margin-top: 58px;
@@ -1024,17 +1055,23 @@ p a,p a:visited {
 }
 
 @media only screen and (max-width:1199px) {
-    .slider-next {
+    .slider-next, .next {
         right: 1%;
     }
 
-    .slider-prev {
+    .slider-prev, .prev {
         left: 1%;
     }
 
     #slider,.tablet-mockup-bg,#offers {
         background-attachment: scroll;
     }
+
+	#product .model > img {
+		
+	}
+	
+	
 }
 
 @media only screen and (max-width:959px) {
@@ -1048,7 +1085,12 @@ p a,p a:visited {
 }
 
 @media only screen and (min-width:768px) and (max-width:959px) {
-    .menu li {
+
+	#product .model > img {
+	}
+	
+    
+	.menu li {
         padding: 0 3px;
     }
 
@@ -1088,7 +1130,7 @@ p a,p a:visited {
     }
 
     .testimonial.left p,.testimonial.right p {
-        width: 77%;
+        width: 70%;
     }
 
     .price-table li {
@@ -1123,6 +1165,8 @@ p a,p a:visited {
     .js .app-ov img {
         width: 54%;
     }
+	
+	.model.animated.fadeInRightBig > img{width: 100%;}
 }
 
 @media only screen and (max-width:767px) {
@@ -1199,6 +1243,7 @@ p a,p a:visited {
     #features {
         height: auto;
         padding-bottom: 60px;
+		margin-top: 35px;
     }
 
     .feature {
